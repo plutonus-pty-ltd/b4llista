@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.IO;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Preloader
 {
@@ -11,7 +7,7 @@ namespace Preloader
     {
         public static string AssetEndpoint = "http://45.77.236.84:81/asset/";
         public static string FingerPrint = "";
-        public static string CurrentDirectory = AppDomain.CurrentDomain.BaseDirectory;
+        public static string CurrentDirectory = Directory.GetCurrentDirectory();
     }
 
     public class Functions

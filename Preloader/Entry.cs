@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace Preloader
 {
@@ -13,14 +8,14 @@ namespace Preloader
     {
         public static void Main()
         {
-            if (!Directory.Exists(Globals.CurrentDirectory + "bin"))
+            if (!Directory.Exists(Path.Combine(Globals.CurrentDirectory, "bin")))
             {
-                Directory.CreateDirectory(Globals.CurrentDirectory + "bin");
+                Directory.CreateDirectory(Path.Combine(Globals.CurrentDirectory, "bin"));
             }
             Globals.FingerPrint = Auth.GetMachineGuid();
-            Functions.DownloadAsset("Newtonsoft.Json.dll", Globals.CurrentDirectory + "bin\\Newtonsoft.Json.dll");
-            Functions.DownloadAsset("B4llista.exe", Globals.CurrentDirectory + "bin\\Ballista.exe");
-            Process.Start(Globals.CurrentDirectory + "bin\\Ballista.exe");
+            Functions.DownloadAsset("Newtonsoft.Json.dll", Path.Combine(Globals.CurrentDirectory, "bin") + "/Newtonsoft.Json.dll");
+            Functions.DownloadAsset("B4llista.exe", Path.Combine(Globals.CurrentDirectory, "bin") + "/B4llista.exe");
+            Process.Start(Path.Combine(Globals.CurrentDirectory, "bin") + "/B4llista.exe");
             Environment.Exit(1);
         }
     }
