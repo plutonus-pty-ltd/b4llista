@@ -9,10 +9,6 @@ namespace B4llista
         [STAThread]
         public static void Main()
         {
-            bool valid;
-            Globals.Mutex = new Mutex(true, "Ballista", out valid);
-            Globals.Mutex.WaitOne();
-            if (!valid) Environment.Exit(1);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Globals.FingerPrint = FingerPrint.GetMachineGuid();
