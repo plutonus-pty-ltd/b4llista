@@ -1,6 +1,7 @@
 ﻿using System.Net;
 using System.Collections.Generic;
 using System.Threading;
+using System.IO;
 
 namespace B4llista
 {
@@ -14,6 +15,7 @@ namespace B4llista
         public static string FingerPrint = "";
         public static string APIKey = "";
         public static string AuthCode = "";
+        public static string CurrentDirectory = Directory.GetCurrentDirectory();
         public static bool Busy = false;
 
         public static List<Error> Errors = new List<Error>()
@@ -75,7 +77,8 @@ namespace B4llista
             {
                 if (UseAuth) wc.Headers.Add("authorization", Globals.APIKey);
                 wc.Headers.Add("user-agent", "Ballista-" + Globals.FingerPrint);
-                wc.DownloadFile(URI, Dest);
+                wc.DownloadFile(Globals.AssetEndpoint + URI, Dest);
+                wc.Dispose();
             }
             return;
         }
