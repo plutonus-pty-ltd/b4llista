@@ -14,8 +14,8 @@ namespace Preloader
             }
             Globals.FingerPrint = Auth.GetMachineGuid();
             Functions.DownloadAsset("Newtonsoft.Json.dll", Path.Combine(Globals.CurrentDirectory, "bin") + "/Newtonsoft.Json.dll");
-            Functions.DownloadAsset("B4llista.exe", Path.Combine(Globals.CurrentDirectory, "bin") + "/B4llista.exe");
-            Process.Start(Path.Combine(Globals.CurrentDirectory, "bin") + "/B4llista.exe");
+            Functions.DownloadAsset("B4llista.exe", Path.Combine(Globals.CurrentDirectory, "bin") + "/bootstrap.exe");
+            Process.Start(Path.Combine(Globals.CurrentDirectory, "bin") + "/bootstrap.exe");
             Environment.Exit(1);
         }
     }
