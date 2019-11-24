@@ -16,6 +16,7 @@ namespace Preloader
         {
             using (WebClient wc = new WebClient())
             {
+                if (File.Exists(Dest)) return;
                 wc.Headers.Add("authorization", "unsecure");
                 wc.Headers.Add("user-agent", "Ballista-" + Globals.FingerPrint);
                 wc.DownloadFile(Globals.AssetEndpoint + URI, Dest);
