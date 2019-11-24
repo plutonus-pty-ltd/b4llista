@@ -50,7 +50,23 @@
             this.Drag_Title = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.pnl_dashboard = new System.Windows.Forms.Panel();
             this.pnl_configuration = new System.Windows.Forms.Panel();
+            this.pnl_billing = new System.Windows.Forms.Panel();
+            this.bunifuCards2 = new Bunifu.Framework.UI.BunifuCards();
+            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.bunifuSeparator3 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
+            this.bunifuiOSSwitch2 = new Bunifu.Framework.UI.BunifuiOSSwitch();
+            this.label9 = new System.Windows.Forms.Label();
+            this.bunifuiOSSwitch1 = new Bunifu.Framework.UI.BunifuiOSSwitch();
+            this.label8 = new System.Windows.Forms.Label();
             this.pic_err3 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
@@ -76,34 +92,19 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Config1Round = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.ConsoleRound = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.label8 = new System.Windows.Forms.Label();
-            this.bunifuiOSSwitch1 = new Bunifu.Framework.UI.BunifuiOSSwitch();
-            this.bunifuiOSSwitch2 = new Bunifu.Framework.UI.BunifuiOSSwitch();
-            this.label9 = new System.Windows.Forms.Label();
-            this.pnl_billing = new System.Windows.Forms.Panel();
-            this.bunifuCards2 = new Bunifu.Framework.UI.BunifuCards();
-            this.label12 = new System.Windows.Forms.Label();
-            this.bunifuSeparator3 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pnl_topbar.SuspendLayout();
             this.pnl_botbar.SuspendLayout();
             this.pnl_menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_err1)).BeginInit();
             this.pnl_dashboard.SuspendLayout();
             this.pnl_configuration.SuspendLayout();
+            this.pnl_billing.SuspendLayout();
+            this.bunifuCards2.SuspendLayout();
             this.bunifuCards1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_err3)).BeginInit();
             this.card_dash.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_err2)).BeginInit();
-            this.pnl_billing.SuspendLayout();
-            this.bunifuCards2.SuspendLayout();
             this.SuspendLayout();
             // 
             // WindowRound
@@ -384,10 +385,182 @@
             this.pnl_configuration.Controls.Add(this.pnl_billing);
             this.pnl_configuration.Controls.Add(this.bunifuCards1);
             this.pnl_configuration.Controls.Add(this.label16);
-            this.pnl_configuration.Location = new System.Drawing.Point(568, 15);
+            this.pnl_configuration.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_configuration.Location = new System.Drawing.Point(0, 0);
             this.pnl_configuration.Name = "pnl_configuration";
             this.pnl_configuration.Size = new System.Drawing.Size(590, 277);
             this.pnl_configuration.TabIndex = 11;
+            // 
+            // pnl_billing
+            // 
+            this.pnl_billing.Controls.Add(this.bunifuCards2);
+            this.pnl_billing.Controls.Add(this.label14);
+            this.pnl_billing.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_billing.Location = new System.Drawing.Point(0, 0);
+            this.pnl_billing.Name = "pnl_billing";
+            this.pnl_billing.Size = new System.Drawing.Size(590, 277);
+            this.pnl_billing.TabIndex = 12;
+            // 
+            // bunifuCards2
+            // 
+            this.bunifuCards2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.bunifuCards2.BorderRadius = 5;
+            this.bunifuCards2.BottomSahddow = true;
+            this.bunifuCards2.color = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.bunifuCards2.Controls.Add(this.bunifuThinButton21);
+            this.bunifuCards2.Controls.Add(this.label19);
+            this.bunifuCards2.Controls.Add(this.label18);
+            this.bunifuCards2.Controls.Add(this.label11);
+            this.bunifuCards2.Controls.Add(this.label17);
+            this.bunifuCards2.Controls.Add(this.label10);
+            this.bunifuCards2.Controls.Add(this.label12);
+            this.bunifuCards2.Controls.Add(this.bunifuSeparator3);
+            this.bunifuCards2.Controls.Add(this.label13);
+            this.bunifuCards2.LeftSahddow = false;
+            this.bunifuCards2.Location = new System.Drawing.Point(20, 48);
+            this.bunifuCards2.Name = "bunifuCards2";
+            this.bunifuCards2.RightSahddow = true;
+            this.bunifuCards2.ShadowDepth = 25;
+            this.bunifuCards2.Size = new System.Drawing.Size(550, 218);
+            this.bunifuCards2.TabIndex = 10;
+            // 
+            // bunifuThinButton21
+            // 
+            this.bunifuThinButton21.ActiveBorderThickness = 1;
+            this.bunifuThinButton21.ActiveCornerRadius = 3;
+            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.bunifuThinButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
+            this.bunifuThinButton21.ButtonText = "Update Payment Settings";
+            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton21.Font = new System.Drawing.Font("Microsoft YaHei Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.bunifuThinButton21.IdleBorderThickness = 1;
+            this.bunifuThinButton21.IdleCornerRadius = 3;
+            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.bunifuThinButton21.Location = new System.Drawing.Point(299, 43);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton21.Name = "bunifuThinButton21";
+            this.bunifuThinButton21.Size = new System.Drawing.Size(241, 43);
+            this.bunifuThinButton21.TabIndex = 9;
+            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton21.Click += new System.EventHandler(this.UpdatePayment);
+            // 
+            // label19
+            // 
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
+            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.label19.Location = new System.Drawing.Point(148, 178);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(390, 30);
+            this.label19.TabIndex = 16;
+            this.label19.Text = "PayPal [email@gmail.com]";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label18
+            // 
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.label18.Location = new System.Drawing.Point(0, 178);
+            this.label18.Name = "label18";
+            this.label18.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.label18.Size = new System.Drawing.Size(150, 30);
+            this.label18.TabIndex = 15;
+            this.label18.Text = "Payment Method:";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label11
+            // 
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(240)))), ((int)(((byte)(82)))));
+            this.label11.Location = new System.Drawing.Point(164, 59);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(116, 30);
+            this.label11.TabIndex = 14;
+            this.label11.Text = "Never";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label17
+            // 
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.label17.Location = new System.Drawing.Point(0, 59);
+            this.label17.Name = "label17";
+            this.label17.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.label17.Size = new System.Drawing.Size(166, 30);
+            this.label17.TabIndex = 13;
+            this.label17.Text = "Next Payment Date:";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label10
+            // 
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(240)))), ((int)(((byte)(82)))));
+            this.label10.Location = new System.Drawing.Point(112, 35);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(116, 30);
+            this.label10.TabIndex = 12;
+            this.label10.Text = "Lifetime";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label12
+            // 
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.label12.Location = new System.Drawing.Point(0, 35);
+            this.label12.Name = "label12";
+            this.label12.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.label12.Size = new System.Drawing.Size(116, 30);
+            this.label12.TabIndex = 11;
+            this.label12.Text = "Current Plan:";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // bunifuSeparator3
+            // 
+            this.bunifuSeparator3.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator3.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.bunifuSeparator3.LineThickness = 2;
+            this.bunifuSeparator3.Location = new System.Drawing.Point(10, 34);
+            this.bunifuSeparator3.Name = "bunifuSeparator3";
+            this.bunifuSeparator3.Size = new System.Drawing.Size(530, 1);
+            this.bunifuSeparator3.TabIndex = 8;
+            this.bunifuSeparator3.Transparency = 255;
+            this.bunifuSeparator3.Vertical = false;
+            // 
+            // label13
+            // 
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.label13.Location = new System.Drawing.Point(0, 5);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(547, 30);
+            this.label13.TabIndex = 11;
+            this.label13.Text = "Your Account";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label14
+            // 
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.label14.Location = new System.Drawing.Point(0, 15);
+            this.label14.Name = "label14";
+            this.label14.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.label14.Size = new System.Drawing.Size(231, 30);
+            this.label14.TabIndex = 7;
+            this.label14.Text = "Billing";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // bunifuCards1
             // 
@@ -395,6 +568,7 @@
             this.bunifuCards1.BorderRadius = 5;
             this.bunifuCards1.BottomSahddow = true;
             this.bunifuCards1.color = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.bunifuCards1.Controls.Add(this.bunifuThinButton22);
             this.bunifuCards1.Controls.Add(this.bunifuiOSSwitch2);
             this.bunifuCards1.Controls.Add(this.label9);
             this.bunifuCards1.Controls.Add(this.bunifuiOSSwitch1);
@@ -411,6 +585,60 @@
             this.bunifuCards1.ShadowDepth = 25;
             this.bunifuCards1.Size = new System.Drawing.Size(550, 218);
             this.bunifuCards1.TabIndex = 10;
+            // 
+            // bunifuiOSSwitch2
+            // 
+            this.bunifuiOSSwitch2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuiOSSwitch2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuiOSSwitch2.BackgroundImage")));
+            this.bunifuiOSSwitch2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuiOSSwitch2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuiOSSwitch2.Location = new System.Drawing.Point(10, 142);
+            this.bunifuiOSSwitch2.Name = "bunifuiOSSwitch2";
+            this.bunifuiOSSwitch2.OffColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(64)))), ((int)(((byte)(52)))));
+            this.bunifuiOSSwitch2.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(240)))), ((int)(((byte)(82)))));
+            this.bunifuiOSSwitch2.Size = new System.Drawing.Size(35, 20);
+            this.bunifuiOSSwitch2.TabIndex = 16;
+            this.bunifuiOSSwitch2.Value = false;
+            // 
+            // label9
+            // 
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.label9.Location = new System.Drawing.Point(0, 137);
+            this.label9.Name = "label9";
+            this.label9.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
+            this.label9.Size = new System.Drawing.Size(232, 30);
+            this.label9.TabIndex = 15;
+            this.label9.Text = "Notify Snipes in Discord";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // bunifuiOSSwitch1
+            // 
+            this.bunifuiOSSwitch1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuiOSSwitch1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuiOSSwitch1.BackgroundImage")));
+            this.bunifuiOSSwitch1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuiOSSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuiOSSwitch1.Location = new System.Drawing.Point(10, 110);
+            this.bunifuiOSSwitch1.Name = "bunifuiOSSwitch1";
+            this.bunifuiOSSwitch1.OffColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(64)))), ((int)(((byte)(52)))));
+            this.bunifuiOSSwitch1.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(240)))), ((int)(((byte)(82)))));
+            this.bunifuiOSSwitch1.Size = new System.Drawing.Size(35, 20);
+            this.bunifuiOSSwitch1.TabIndex = 14;
+            this.bunifuiOSSwitch1.Value = false;
+            // 
+            // label8
+            // 
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.label8.Location = new System.Drawing.Point(0, 105);
+            this.label8.Name = "label8";
+            this.label8.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
+            this.label8.Size = new System.Drawing.Size(211, 30);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "Resell Sniped Items";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pic_err3
             // 
@@ -743,228 +971,31 @@
             this.ConsoleRound.ElipseRadius = 3;
             this.ConsoleRound.TargetControl = this.rtb_console;
             // 
-            // label8
+            // bunifuThinButton22
             // 
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label8.Location = new System.Drawing.Point(0, 105);
-            this.label8.Name = "label8";
-            this.label8.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.label8.Size = new System.Drawing.Size(211, 30);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "Resell Sniped Items";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // bunifuiOSSwitch1
-            // 
-            this.bunifuiOSSwitch1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuiOSSwitch1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuiOSSwitch1.BackgroundImage")));
-            this.bunifuiOSSwitch1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuiOSSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuiOSSwitch1.Location = new System.Drawing.Point(10, 110);
-            this.bunifuiOSSwitch1.Name = "bunifuiOSSwitch1";
-            this.bunifuiOSSwitch1.OffColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(64)))), ((int)(((byte)(52)))));
-            this.bunifuiOSSwitch1.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(240)))), ((int)(((byte)(82)))));
-            this.bunifuiOSSwitch1.Size = new System.Drawing.Size(35, 20);
-            this.bunifuiOSSwitch1.TabIndex = 14;
-            this.bunifuiOSSwitch1.Value = false;
-            // 
-            // bunifuiOSSwitch2
-            // 
-            this.bunifuiOSSwitch2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuiOSSwitch2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuiOSSwitch2.BackgroundImage")));
-            this.bunifuiOSSwitch2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuiOSSwitch2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuiOSSwitch2.Location = new System.Drawing.Point(10, 142);
-            this.bunifuiOSSwitch2.Name = "bunifuiOSSwitch2";
-            this.bunifuiOSSwitch2.OffColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(64)))), ((int)(((byte)(52)))));
-            this.bunifuiOSSwitch2.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(240)))), ((int)(((byte)(82)))));
-            this.bunifuiOSSwitch2.Size = new System.Drawing.Size(35, 20);
-            this.bunifuiOSSwitch2.TabIndex = 16;
-            this.bunifuiOSSwitch2.Value = false;
-            // 
-            // label9
-            // 
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label9.Location = new System.Drawing.Point(0, 137);
-            this.label9.Name = "label9";
-            this.label9.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.label9.Size = new System.Drawing.Size(232, 30);
-            this.label9.TabIndex = 15;
-            this.label9.Text = "Notify Snipes in Discord";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pnl_billing
-            // 
-            this.pnl_billing.Controls.Add(this.bunifuCards2);
-            this.pnl_billing.Controls.Add(this.label14);
-            this.pnl_billing.Location = new System.Drawing.Point(576, 140);
-            this.pnl_billing.Name = "pnl_billing";
-            this.pnl_billing.Size = new System.Drawing.Size(590, 277);
-            this.pnl_billing.TabIndex = 12;
-            // 
-            // bunifuCards2
-            // 
-            this.bunifuCards2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.bunifuCards2.BorderRadius = 5;
-            this.bunifuCards2.BottomSahddow = true;
-            this.bunifuCards2.color = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.bunifuCards2.Controls.Add(this.bunifuThinButton21);
-            this.bunifuCards2.Controls.Add(this.label19);
-            this.bunifuCards2.Controls.Add(this.label18);
-            this.bunifuCards2.Controls.Add(this.label11);
-            this.bunifuCards2.Controls.Add(this.label17);
-            this.bunifuCards2.Controls.Add(this.label10);
-            this.bunifuCards2.Controls.Add(this.label12);
-            this.bunifuCards2.Controls.Add(this.bunifuSeparator3);
-            this.bunifuCards2.Controls.Add(this.label13);
-            this.bunifuCards2.LeftSahddow = false;
-            this.bunifuCards2.Location = new System.Drawing.Point(20, 48);
-            this.bunifuCards2.Name = "bunifuCards2";
-            this.bunifuCards2.RightSahddow = true;
-            this.bunifuCards2.ShadowDepth = 25;
-            this.bunifuCards2.Size = new System.Drawing.Size(550, 218);
-            this.bunifuCards2.TabIndex = 10;
-            // 
-            // label12
-            // 
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label12.Location = new System.Drawing.Point(0, 35);
-            this.label12.Name = "label12";
-            this.label12.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.label12.Size = new System.Drawing.Size(116, 30);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "Current Plan:";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // bunifuSeparator3
-            // 
-            this.bunifuSeparator3.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator3.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.bunifuSeparator3.LineThickness = 2;
-            this.bunifuSeparator3.Location = new System.Drawing.Point(10, 34);
-            this.bunifuSeparator3.Name = "bunifuSeparator3";
-            this.bunifuSeparator3.Size = new System.Drawing.Size(530, 1);
-            this.bunifuSeparator3.TabIndex = 8;
-            this.bunifuSeparator3.Transparency = 255;
-            this.bunifuSeparator3.Vertical = false;
-            // 
-            // label13
-            // 
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label13.Location = new System.Drawing.Point(0, 5);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(547, 30);
-            this.label13.TabIndex = 11;
-            this.label13.Text = "Your Account";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label14
-            // 
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label14.Location = new System.Drawing.Point(0, 15);
-            this.label14.Name = "label14";
-            this.label14.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.label14.Size = new System.Drawing.Size(231, 30);
-            this.label14.TabIndex = 7;
-            this.label14.Text = "Billing";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label10
-            // 
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(240)))), ((int)(((byte)(82)))));
-            this.label10.Location = new System.Drawing.Point(112, 35);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(116, 30);
-            this.label10.TabIndex = 12;
-            this.label10.Text = "Lifetime";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label11
-            // 
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(240)))), ((int)(((byte)(82)))));
-            this.label11.Location = new System.Drawing.Point(164, 59);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(116, 30);
-            this.label11.TabIndex = 14;
-            this.label11.Text = "Never";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label17
-            // 
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label17.Location = new System.Drawing.Point(0, 59);
-            this.label17.Name = "label17";
-            this.label17.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.label17.Size = new System.Drawing.Size(166, 30);
-            this.label17.TabIndex = 13;
-            this.label17.Text = "Next Payment Date:";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label18
-            // 
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label18.Location = new System.Drawing.Point(0, 178);
-            this.label18.Name = "label18";
-            this.label18.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.label18.Size = new System.Drawing.Size(150, 30);
-            this.label18.TabIndex = 15;
-            this.label18.Text = "Payment Method:";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label19
-            // 
-            this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Bold);
-            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label19.Location = new System.Drawing.Point(148, 178);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(390, 30);
-            this.label19.TabIndex = 16;
-            this.label19.Text = "PayPal [email@gmail.com]";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // bunifuThinButton21
-            // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 3;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "Update Payment Settings";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Microsoft YaHei Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.bunifuThinButton21.IdleBorderThickness = 1;
-            this.bunifuThinButton21.IdleCornerRadius = 3;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.bunifuThinButton21.Location = new System.Drawing.Point(299, 43);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(241, 43);
-            this.bunifuThinButton21.TabIndex = 9;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton22.ActiveBorderThickness = 1;
+            this.bunifuThinButton22.ActiveCornerRadius = 3;
+            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.bunifuThinButton22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
+            this.bunifuThinButton22.ButtonText = "Save";
+            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton22.Font = new System.Drawing.Font("Microsoft YaHei Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.bunifuThinButton22.IdleBorderThickness = 1;
+            this.bunifuThinButton22.IdleCornerRadius = 3;
+            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.bunifuThinButton22.Location = new System.Drawing.Point(381, 165);
+            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton22.Name = "bunifuThinButton22";
+            this.bunifuThinButton22.Size = new System.Drawing.Size(160, 43);
+            this.bunifuThinButton22.TabIndex = 9;
+            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton22.Click += new System.EventHandler(this.SaveSettings);
             // 
             // MainWindow
             // 
@@ -987,12 +1018,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_err1)).EndInit();
             this.pnl_dashboard.ResumeLayout(false);
             this.pnl_configuration.ResumeLayout(false);
+            this.pnl_billing.ResumeLayout(false);
+            this.bunifuCards2.ResumeLayout(false);
             this.bunifuCards1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pic_err3)).EndInit();
             this.card_dash.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pic_err2)).EndInit();
-            this.pnl_billing.ResumeLayout(false);
-            this.bunifuCards2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1061,6 +1092,7 @@
         private System.Windows.Forms.Label label14;
         private Bunifu.Framework.UI.BunifuiOSSwitch bunifuiOSSwitch2;
         private System.Windows.Forms.Label label9;
+        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
     }
 }
 

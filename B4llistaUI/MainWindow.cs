@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Threading;
 using System.Windows.Forms;
-using PlutoLib;
+using BallistaLib;
 
 namespace B4llistaUI
 {
@@ -65,6 +64,16 @@ namespace B4llistaUI
             }
 
             // require plutolib -> start bot
+        }
+
+        private void SaveSettings(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void UpdatePayment(object sender, EventArgs e)
+        {
+            
         }
     }
 }

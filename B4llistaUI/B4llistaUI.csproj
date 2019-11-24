@@ -105,9 +105,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PlutoLib\PlutoLib.csproj">
-      <Project>{03d656d6-92a6-465b-972f-2371e30cd9f8}</Project>
-      <Name>PlutoLib</Name>
+    <ProjectReference Include="..\BallistaLib\BallistaLib.csproj">
+      <Project>{1b1e37e9-c1c4-494c-b095-159127d2c3a6}</Project>
+      <Name>BallistaLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
