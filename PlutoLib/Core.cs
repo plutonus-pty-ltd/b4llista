@@ -1,7 +1,10 @@
 ﻿namespace PlutoLib
 {
-    public class Core
+    public class Data
     {
-        
+        public static void SaveSettings()
+        {
+
+        }
     }
 }
