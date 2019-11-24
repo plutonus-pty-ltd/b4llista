@@ -75,6 +75,7 @@ namespace B4llista
         {
             using(WebClient wc = new WebClient())
             {
+                if (File.Exists(Dest)) return;
                 if (UseAuth) wc.Headers.Add("authorization", Globals.APIKey);
                 wc.Headers.Add("user-agent", "Ballista-" + Globals.FingerPrint);
                 wc.DownloadFile(Globals.AssetEndpoint + URI, Dest);

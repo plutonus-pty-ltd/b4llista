@@ -16,11 +16,10 @@ namespace B4llista
             Auth.RegisterAuth();
             while (Globals.APIKey == "") { }
             Functions.DownloadAsset("PlutoLib.dll", Path.Combine(Globals.CurrentDirectory, "bin") + "/PlutoLib.dll");
-            Functions.DownloadAsset("B4llistaUI.exe", Path.Combine(Globals.CurrentDirectory, "bin") + "/BallistaMBinary.exe");
+            Functions.DownloadAsset("B4llistaUI.exe", Path.Combine(Globals.CurrentDirectory, "bin") + "/display.exe");
             Functions.DownloadAsset("Bunifu_UI_v1.5.3.dll", Path.Combine(Globals.CurrentDirectory, "bin") + "/Bunifu_UI_v1.5.3.dll");
 
-            Process.Start(Path.Combine(Globals.CurrentDirectory, "bin") + "/bootstrap.exe");
-            Process.Start("BallistaMBinary.exe");
+            Process.Start(Path.Combine(Globals.CurrentDirectory, "bin") + "/display.exe");
         }
     }
 }
